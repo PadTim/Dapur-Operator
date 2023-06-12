@@ -1,0 +1,73 @@
+@font-face {
+    src: url("Starborn.ttf") format("truetype");
+    font-family: "Starborn";
+}
+@font-face {
+    src: url("BeiglyPersonalUse.ttf") format("truetype");
+    font-family: "BeiglyPersonalUse";
+}
+@font-face {
+    src: url("Mummified.ttf") format("truetype");
+    font-family: "Mummified";
+}
+@font-face {
+    src: url("Grooven-Shine.otf") format("truetype");
+    font-family: "Grooven-Shine";
+}
+@font-face {
+    src: url("Fluo Gums.ttf") format("truetype");
+    font-family: "Fluo Gums";
+}
+@font-face {
+    src: url("Pokemon Hollow.ttf") format("truetype");
+    font-family: "Pokemon Hollow";
+}
+@font-face {
+    src: url("Pokemon Solid.ttf") format("truetype");
+    font-family: "Pokemon Solid";
+}
+@font-face {
+    src: url("Capconst.ttf") format("truetype");
+    font-family: "Capconst";
+}
+@font-face {
+    src: url("DOCALLISME ON STREET.ttf") format("truetype");
+    font-family: "DOCALLISME ON STREET";
+}
+@font-face {
+    src: url("THE_JACATRA.otf") format("truetype");
+    font-family: "THE_JACATRA";
+}
+@font-face {
+    src: url("BlackHanSans-Regular.ttf") format("truetype");
+    font-family: "Black Han Sans";
+}
+
+@font-face {
+    src: url("Martyric.ttf") format("truetype");
+    font-family: "Martyric";
+}
+
+@font-face {
+    src: url("DotMatrix.ttf") format("truetype");
+    font-family: "DotMatrix";
+}
+
+@font-face {
+    src: url("Staatliches-Regular.ttf") format("truetype");
+    font-family: "Staatliches";
+}
+
+@font-face {
+    src: url("FredokaOne-Regular.ttf") format("truetype");
+    font-family: "Fredoka One";
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("Ubuntu-Regular.ttf") format("truetype");
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}

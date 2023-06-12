@@ -1,0 +1,156 @@
+:root{
+    --warnaUtama :#fff;
+    --warnaSecondary:#252734;
+    --warnaAcsent:#FF9100;
+}
+
+@page {
+    size: 330mm 215mm;
+    margin:0;
+    padding: 0;
+}
+
+@page :first {
+    margin-top: 0;    /* Top margin on first page 10cm */
+ }
+
+@media print {
+    body,
+    page {
+        margin: 0;
+        padding:0;
+        background: none;
+        box-shadow: none;
+    }
+    header.sticky-top{
+        display: none;
+        margin:0;
+    }
+
+    .navbar,
+    .TombolCetak {
+        display: none;
+    }
+    .body-dokumen{
+        padding:0;
+    }
+    page[size="F4-LANDSCAPE"] {
+        width: 330mm;
+        height: 215mm; 
+        /* padding: 5mm;  */
+        /* overflow: hidden; */
+    
+    }
+    section.my-4{
+
+        margin: 0;
+        padding:0;
+
+    }
+}
+page {   
+    background: white;
+   
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    /* overflow: hidden; */
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="F4-LANDSCAPE"] {
+    width: 330mm;
+    height: 215mm; 
+    /* padding: 5mm;  */
+    /* overflow: hidden; */
+
+}
+.navbar{
+    background: linear-gradient(to bottom, rgba(200,0,3,1) 0%,rgba(255,56,1,1) 25%,rgba(233,3,7,1) 49%,rgba(232,88,93,1) 50%,rgba(243,189,191,1) 100%);background: linear-gradient(to bottom, rgba(243,197,189,0.5) 0%,rgba(232,108,87,0.5) 50%,rgba(234,40,3,0.5) 51%,rgba(255,102,0,0.5) 75%,rgba(199,34,0,0.5) 100%);background: linear-gradient(to bottom, rgba(254,178,202,1) 0%,rgba(241,51,111,1) 50%,rgba(235,7,79,1) 51%,rgba(251,95,144,1) 100%);
+    opacity:0.7;
+    z-index:1000;
+}
+ul.dropdown-menu{
+    color:#111;
+    z-index:1000; 
+}
+.nav-link.loginBTN{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-weight:800;
+    
+}
+
+.page-layout{
+
+    /* background:#FF9100; */
+    /* padding:5mm 5mm 5mm 5mm; */
+    border: 1px solid #111;
+}
+#atas{
+    width:330mm;
+    height:30mm;
+    /* background:#5d029e; */
+   
+}
+#isi-content{
+    /* background:#589e02; */
+    width:330mm;
+    height:165mm;
+    overflow: hidden;
+  
+
+}
+#isi-content.area-content{
+    padding:5mm;
+    min-height:160mm;
+    
+}
+#bawah{
+    width:330mm;
+
+    height:20mm;
+    bottom: 0;
+    
+    /* background:#805e00; */
+    
+    
+}
+#header-8355 {
+    background: url(../img/bg-themes/105-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30mm;
+    break-after: page;
+}
+#main-8355{
+    margin-top:2mm;
+    padding:0mm 5mm 0mm 5mm;
+ }
+
+#footer-8355{
+        background:#2e0210;
+        height:18mm;
+    }
+@media print {
+    #header-8355 {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  
+/* footer#footer-8355 {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    } */
+
+    
+      
+  }

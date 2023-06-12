@@ -1,0 +1,213 @@
+.navbar{
+    background: linear-gradient(to bottom, rgba(200,0,3,1) 0%,rgba(255,56,1,1) 25%,rgba(233,3,7,1) 49%,rgba(232,88,93,1) 50%,rgba(243,189,191,1) 100%);background: linear-gradient(to bottom, rgba(243,197,189,0.5) 0%,rgba(232,108,87,0.5) 50%,rgba(234,40,3,0.5) 51%,rgba(255,102,0,0.5) 75%,rgba(199,34,0,0.5) 100%);background: linear-gradient(to bottom, rgba(254,178,202,1) 0%,rgba(241,51,111,1) 50%,rgba(235,7,79,1) 51%,rgba(251,95,144,1) 100%);
+    opacity:0.7;
+    z-index:1000;
+}
+ul.dropdown-menu{
+    color:#111;
+    z-index:1000; 
+}
+.nav-link.loginBTN{
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-weight:800;
+    
+}
+  /*--------------------------------------------------------------
+  # Hero Section
+  --------------------------------------------------------------*/
+  #hero {
+    width: 100%;
+    height: 80vh;
+    /* background: #37517e; */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 300%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    z-index:-1;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  #hero .container {
+    padding-top: 72px;
+  }
+  
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: #fff;
+    background: #47b2e4;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #209dd8;
+  }
+  
+  #hero .btn-watch-video {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    margin: 10px 0 0 25px;
+    color: #fff;
+    line-height: 1;
+  }
+  
+  #hero .btn-watch-video i {
+    line-height: 0;
+    color: #fff;
+    font-size: 32px;
+    transition: 0.3s;
+    margin-right: 8px;
+  }
+  
+  #hero .btn-watch-video:hover i {
+    color: #47b2e4;
+  }
+  
+  #hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @media (max-width: 991px) {
+    #hero {
+      height: 100vh;
+      text-align: center;
+    }
+  
+    #hero .animated {
+      animation: none;
+    }
+  
+    #hero .hero-img {
+      text-align: center;
+    }
+  
+    #hero .hero-img img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  
+    #hero .hero-img img {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero .hero-img img {
+      width: 80%;
+    }
+  
+    #hero .btn-get-started {
+      font-size: 16px;
+      padding: 10px 24px 11px 24px;
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+  
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+
+
+#Starter{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 300%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+.container.Starter
+.ngereng-yuk {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    font-family: 'Pokemon Solid';
+    font-size: 27pt;
+    color: #fff;
+    text-shadow: #fc0 1px 0 10px;
+
+}
+.naik-Turun {
+animation: naikTurun 2s infinite;
+}
+
+@keyframes naikTurun {
+0% {
+  transform: translateY(0);
+}
+50% {
+  transform: translateY(-20px);
+}
+100% {
+  transform: translateY(0);
+}
+}
